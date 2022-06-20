@@ -9,9 +9,7 @@ class EkinchiBarak extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0.0,
+      appBar: AppBar(backgroundColor: Colors.grey,
         title: const Text(
           'Tапшырма 2',
           style: TextStyle(
